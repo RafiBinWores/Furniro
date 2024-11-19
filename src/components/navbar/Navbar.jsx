@@ -75,9 +75,9 @@ function Navbar() {
           )}
 
           {/* Bottom navigation for small and medium device */}
-          <div className="lg:hidden">
+          <div className="z-10 lg:hidden">
             <div className="fixed bottom-0 left-0 w-full h-16 bg-white border-t border-gray-200 shadow-[-1px_-1px_17px_-3px_rgba(0,_0,_0,_0.2)]">
-              <div className="grid h-full max-w-lg grid-cols-5 mx-auto font-medium">
+              <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
                 <button
                   type="button"
                   className="inline-flex flex-col items-center justify-center px-5"
@@ -91,16 +91,6 @@ function Navbar() {
                 >
                   <Heart />
                   <span className="text-xs">Wishlist</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setIsSearchOpen((prev) => !prev);
-                  }}
-                  className="inline-flex flex-col items-center justify-center px-5"
-                >
-                  <Search />
-                  <span className="text-xs">Search</span>
                 </button>
                 <button
                   type="button"
@@ -121,14 +111,26 @@ function Navbar() {
           </div>
 
           {/* Hamburger icon */}
+          <div className="lg:hidden">
           <button
-            className="pe-2 lg:hidden"
+                  type="button"
+                  onClick={() => {
+                    setIsSearchOpen((prev) => !prev);
+                  }}
+                  className=""
+                >
+                  <Search />
+                </button>
+          <button
+            className="ps-3 pe-2"
             onClick={() => {
                 setNavToggle((prev) => !prev);
             }}
           >
             <ThreeLineHorizontal className="text-2xl" />
           </button>
+          </div>
+          
 
           {/* Small and medium device nav sidebar */}
           <div className={`fixed bg-black/50 h-full w-screen backdrop-blur-sm top-0 right-0 transition-all z-50 ${
