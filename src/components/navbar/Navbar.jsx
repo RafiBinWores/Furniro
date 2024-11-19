@@ -45,7 +45,7 @@ function Navbar() {
 
           {/* Nav buttons */}
           <div className="hidden lg:flex items-center gap-6 lg:gap-[45px]">
-            <a href="" className="hidden">
+            <a href="">
               <span className="material-symbols-outlined">person_alert</span>
             </a>
             <button
