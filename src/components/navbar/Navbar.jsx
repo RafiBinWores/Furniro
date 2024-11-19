@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <header className="h-[60px] md:h-[80px] lg:h-[100px] grid place-items-center relative">
-      <nav className="container mx-auto px-3">
+      <nav className="container px-3 mx-auto">
         <div className="flex items-center justify-between">
           <a href="" className="flex items-center gap-1">
             {/* Logo */}
@@ -131,12 +131,12 @@ function Navbar() {
           </button>
 
           {/* Small and medium device nav sidebar */}
-          <div className={`fixed bg-black/50 h-full w-screen backdrop-blur-sm top-0 right-0 transition-all ${
+          <div className={`fixed bg-black/50 h-full w-screen backdrop-blur-sm top-0 right-0 transition-all z-50 ${
                 navToggle ? "translate-x-0" : "-translate-x-full"
               }`}>
           
 
-            <div className="p-8 text-black bg-white flex gap-8 flex-col left-0 top-0 absolute h-screen z-20 w-3/5">
+            <div className="absolute top-0 left-0 z-20 flex flex-col w-3/5 h-screen gap-8 p-8 text-black bg-white">
               <button 
               onClick={() => {
                 setNavToggle((prev) => !prev);

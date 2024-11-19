@@ -16,6 +16,7 @@ export default {
         customGray: {
           100: '#9F9F9F',
           200: '#D9D9D9',
+          300: '#333333',
         },
       },
     },
