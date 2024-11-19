@@ -10,6 +10,14 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      colors: {
+        golden: '#B88E2F',
+        peach: '#FFF3E3',
+        customGray: {
+          100: '#9F9F9F',
+          200: '#D9D9D9',
+        },
+      },
     },
   },
   plugins: [],
