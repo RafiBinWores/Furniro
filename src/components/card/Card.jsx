@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import shareIcon from "../../assets/images/share.png";
 import compareIcon from "../../assets/images/compare.png";
 import likeIcon from "../../assets/images/like.png";
@@ -58,7 +59,7 @@ function Card({ product }) {
             href=""
             className="inline-block px-10 py-3 font-semibold bg-white text-golden"
           >
-            Add to cart
+            Buy Now
           </a>
 
           <div className="flex items-center gap-6">
@@ -80,5 +81,16 @@ function Card({ product }) {
     </div>
   );
 }
+
+Card.propTypes = {
+  product: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    isNew: PropTypes.bool,
+    discountPercentage: PropTypes.number,
+    furnitureType: PropTypes.string,
+    productImage: PropTypes.string.isRequired,
+  }),
+};
 
 export default Card;

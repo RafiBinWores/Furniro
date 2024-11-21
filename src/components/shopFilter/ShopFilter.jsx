@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { SettingsHorizontal } from "akar-icons";
 
 function ShopFilter({
@@ -61,5 +62,15 @@ function ShopFilter({
     </div>
   );
 }
+
+ShopFilter.propTypes = {
+  startIndex: PropTypes.number.isRequired,
+  endIndex: PropTypes.number.isRequired,
+  totalCount: PropTypes.number.isRequired,
+  itemsPerPage: PropTypes.number.isRequired,
+  onItemsPerPageChange: PropTypes.func.isRequired,
+  sortBy: PropTypes.string.isRequired,
+  onSortChange: PropTypes.func.isRequired,
+};
 
 export default ShopFilter;
