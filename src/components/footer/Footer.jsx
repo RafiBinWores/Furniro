@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="pt-[45px]">
+    <footer className="pt-[45px] border-t">
       <div className="container px-3 pb-20 mx-auto lg:pb-10 lg:px-0 font-poppins lg:mb-0">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div>
