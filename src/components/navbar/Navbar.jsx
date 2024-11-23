@@ -10,7 +10,7 @@ import {
 import logo from "../../assets/images/logo.png";
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [navToggle, setNavToggle] = useState(false);
@@ -20,21 +20,21 @@ function Navbar() {
     <header className="h-[60px] md:h-[80px] lg:h-[100px] grid place-items-center relative">
       <nav className="container px-3 mx-auto">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-1">
+          <NavLink to="/" className="flex items-center gap-1">
             {/* Logo */}
             <img className="w-8 md:w-[50px]" src={logo} alt="Furniro Logo" />
             <span className="font-montserrat font-bold text-2xl md:text-[34px]">
               Furniro
             </span>
-          </Link>
+          </NavLink>
 
           {/* Menu */}
           <ul className="lg:flex items-center gap-[75px] font-poppins font-medium hidden">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link to="/shop">Shop</Link>
+              <NavLink to="/shop">Shop</NavLink>
             </li>
             <li>
               <a href="">About</a>
@@ -66,7 +66,7 @@ function Navbar() {
 
           {/* Search Field */}
           {isSearchOpen && (
-            <div className="absolute top-[60px] md:top-[80px] lg:top-[100px] left-1/2 transform -translate-x-1/2 bg-white border shadow-lg w-full flex justify-center p-4">
+            <div className="absolute top-[60px] md:top-[80px] lg:top-[100px] left-1/2 transform -translate-x-1/2 bg-white border shadow-lg w-full flex justify-center p-4 z-20">
               <input
                 type="text"
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 lg:w-2/4"
@@ -79,13 +79,13 @@ function Navbar() {
           <div className="z-10 lg:hidden">
             <div className="fixed bottom-0 left-0 w-full h-16 bg-white border-t border-gray-200 shadow-[-1px_-1px_17px_-3px_rgba(0,_0,_0,_0.2)]">
               <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
-                <Link
+                <NavLink
                   to="/"
                   className="inline-flex flex-col items-center justify-center px-5"
                 >
                   <HomeAlt1 />
                   <span className="text-xs">Home</span>
-                </Link>
+                </NavLink>
                 <button
                   type="button"
                   className="inline-flex flex-col items-center justify-center px-5"
@@ -147,20 +147,20 @@ function Navbar() {
                 <Cross className="mb-8" />
               </button>
 
-              <Link
+              <NavLink
                 to="/"
                 onClick={() => setNavToggle(false)}
                 className="font-bold"
               >
                 Home
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/shop"
                 onClick={() => setNavToggle(false)}
                 className="font-bold"
               >
                 Shop
-              </Link>
+              </NavLink>
               <a href="" className="font-bold">
                 Contact
               </a>

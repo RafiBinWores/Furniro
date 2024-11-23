@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import heroImage from "../../assets/images/hero.jpg";
+import galleryImage from "../../assets/images/galleryImage.png";
 import Card from "../../components/card/Card";
 import Range from "../../components/range/Range";
 import { Link } from "react-router-dom";
+import Testimonial from "../../components/testimonial/Testimonial";
 
 function HomePage() {
   const [products, setProducts] = useState([]);
@@ -77,6 +79,25 @@ function HomePage() {
           </Link>
         </div>
       </div>
+
+       {/* Testimonial */}
+       <Testimonial/>
+
+      {/* Gallery */}
+      <div className="text-center font-poppins lg:mt-[100px] my-[50px]">
+        <div>
+          <p className="pb-2 text-base font-semibold md:pb-4 lg:text-xl text-customGray-700">
+            Share your setup with
+          </p>
+          <h3 className="text-3xl md:text-[40px] font-bold text-customGray-300">
+            #FuniroFurniture
+          </h3>
+        </div>
+
+        <div className="w-full overflow-hidden">
+          <img className="w-full" src={galleryImage} alt="" />
+        </div>
+      </div>  
     </div>
   );
 }
