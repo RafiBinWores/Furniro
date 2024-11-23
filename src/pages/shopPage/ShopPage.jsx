@@ -24,6 +24,9 @@ function ShopPage() {
       .then((data) => setProducts(data));
   }, []);
 
+  // set the page name for breadcrumb
+  const pageName = "Shop";
+
   // Sort function based on selected option
   const sortProducts = (products) => {
     switch (sortBy) {
@@ -71,7 +74,7 @@ function ShopPage() {
 
   return (
     <div>
-      <Breadcrumb />
+      <Breadcrumb page={pageName}/>
       <ShopFilter
         startIndex={startIndex}
         endIndex={endIndex}

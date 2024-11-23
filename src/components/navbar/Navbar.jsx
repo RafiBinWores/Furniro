@@ -40,7 +40,7 @@ function Navbar() {
               <a href="">About</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
 
@@ -161,9 +161,12 @@ function Navbar() {
               >
                 Shop
               </NavLink>
-              <a href="" className="font-bold">
+              <NavLink 
+              to="/contact" 
+              onClick={() => setNavToggle(false)}
+              className="font-bold">
                 Contact
-              </a>
+              </NavLink>
               <a href="" className="font-bold">
                 About
               </a>

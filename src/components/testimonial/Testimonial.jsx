@@ -67,10 +67,10 @@ function Testimonial() {
               {/* testimonial cards */}
               <div className="flex flex-col gap-10">
                 <div className="flex gap-6">
-                  <div className="w-[372px] h-[486px] object-contain">
+                  <div className="w-[372px] h-[486px] object-cover">
                     <img src={testimonialImage2} alt="Image" />
                   </div>
-                  <div className="w-[372px] h-[486px] object-contain">
+                  <div className="w-[372px] h-[486px] object-cover">
                     <img src={testimonialImage3} alt="Image" />
                   </div>
                 </div>
