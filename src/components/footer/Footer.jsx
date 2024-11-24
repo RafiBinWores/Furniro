@@ -14,10 +14,10 @@ function Footer() {
             <div>
               <p className="font-medium text-customGray-100">Links</p>
               <div className="flex flex-col gap-8 lg:gap-11 mt-8 lg:mt-[50px] font-medium">
-                <a href="">Home</a>
-                <a href="">Shop</a>
+                <a href="/">Home</a>
+                <a href="/shop">Shop</a>
                 <a href="">About</a>
-                <a href="">Contact</a>
+                <a href="/contact">Contact</a>
               </div>
             </div>
             <div>
