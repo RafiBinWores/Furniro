@@ -2,9 +2,10 @@ import PropTypes from "prop-types";
 import shareIcon from "../../assets/images/share.png";
 import compareIcon from "../../assets/images/compare.png";
 import likeIcon from "../../assets/images/like.png";
+import { Link } from "react-router-dom";
 
 function Card({ product }) {
-  const { name, price, isNew, discountPercentage, furnitureType, productImage } = product;
+  const { id, name, price, isNew, discountPercentage, furnitureType, thumbnail } = product;
 
   const calculateDiscountedPrice = (price, discount) => {
     return discount ? (price * (1 - discount / 100)).toFixed(2) : price;
@@ -22,7 +23,7 @@ function Card({ product }) {
       <div className="relative overflow-hidden">
         <img
           className="h-[301px] w-full object-cover"
-          src={productImage}
+          src={thumbnail}
           alt={`Image of ${name}`}
         />
 
@@ -55,12 +56,12 @@ function Card({ product }) {
 
         {/* Hover card buttons */}
         <div className="absolute flex flex-col items-center justify-center w-full h-full gap-6 transition-all duration-300 opacity-0 bg-customGray-600/70 -bottom-10 group-hover:bottom-0 group-hover:opacity-100">
-          <a
-            href=""
+          <Link
+            to={`/product-details/${id}`}
             className="inline-block px-10 py-3 font-semibold bg-white text-golden"
           >
             Buy Now
-          </a>
+          </Link>
 
           <div className="flex items-center gap-6">
             <a href="#" className="flex items-center gap-1">
@@ -84,12 +85,13 @@ function Card({ product }) {
 
 Card.propTypes = {
   product: PropTypes.shape({
+    id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     isNew: PropTypes.bool,
     discountPercentage: PropTypes.number,
     furnitureType: PropTypes.string,
-    productImage: PropTypes.string.isRequired,
+    thumbnail: PropTypes.string.isRequired,
   }),
 };
 

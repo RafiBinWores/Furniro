@@ -1,182 +1,522 @@
 [
-    {
-        "id": 1,
-        "name": "LuxeChair",
-        "price": 1200,
-        "isNew": true,
-        "discountPercentage": 16.67,
-        "furnitureType": "Stylish cafe chair",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233128370176/product1.jpg?ex=673e40e8&is=673cef68&hm=97e818ef591cf82b3a6b946c637e1af35016541115f97befac46995caa7f19f2&"
-    },
-    {
-        "id": 2,
-        "name": "Vivo",
-        "price": 1500,
-        "isNew": false,
-        "discountPercentage": 10,
-        "furnitureType": "Stylish cafe chair",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233514250270/product2.jpg?ex=673e40e8&is=673cef68&hm=9263b977598d483c795671a5db7877aedcf2c37d0780bb1d682463d4505d0392&"
-    },
-    {       
-        "id": 3,
-        "name": "Sofica",
-        "price": 300,
-        "isNew": true,
-        "discountPercentage": 10,
-        "furnitureType": "Luxury big sofa",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233879150633/product3.jpg?ex=673e40e8&is=673cef68&hm=90a4998773e97e62ab2c188ddd7b766f941d5fa4f701ad81563e29db75f4e49c&"
-    },
-    {
-        "id": 4,
-        "name": "Baristo",
-        "price": 2000,
-        "isNew": false,
-        "discountPercentage": null,
-        "furnitureType": "Outdoor bar table and stool",
-        "productImage": "https://media.discordapp.net/attachments/1288073762717175888/1308342234151784468/product4.jpg?ex=673e40e8&is=673cef68&hm=a68495e96bf1b693c6268a69146f691ddc1fda28c52a94c22edb7b932013bf12&=&format=webp&width=356&height=376"
-    },
-    {
-        "id": 5,
-        "name": "Nox",
-        "price": 400,
-        "isNew": false,
-        "discountPercentage": 10,
-        "furnitureType": "Night lamp",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234403307560/product5.jpg?ex=673e40e8&is=673cef68&hm=dd6b8db0d6668370bacfff1a2598c05c21803bb26c0407563a9d61e7f71aaa47&"
-    },
-    {
-        "id": 6,
-        "name": "Muggi",
-        "price": 850,
-        "isNew": true,
-        "discountPercentage": 5.88,
-        "furnitureType": "Small mug",
-        "productImage": "https://media.discordapp.net/attachments/1288073762717175888/1308342234726535209/product6.jpg?ex=673e40e8&is=673cef68&hm=5798c6a57426f6df29c47ef1659bfac882ca78d3a388ffbfd5d1f294720b5a48&=&format=webp&width=356&height=376"
-    },
-    {
-        "id": 7,
-        "name": "CosmoBed",
-        "price": 250,
-        "isNew": false,
-        "discountPercentage": null,
-        "furnitureType": "Cute bed set",
-        "productImage": "https://media.discordapp.net/attachments/1288073762717175888/1308342235082920037/product7.jpg?ex=673e40e8&is=673cef68&hm=ff32e1d09034221cb0555fa3d7e7b56c2eed2e6f1d95fd4b4c85135bf23d5008&=&format=webp&width=356&height=376"
-    },
-    {
-        "id": 8,
-        "name": "Florica",
-        "price": 500,
-        "isNew": true,
-        "discountPercentage": 10,
-        "furnitureType": "Minimalist flower pot",
-        "productImage": "https://media.discordapp.net/attachments/1288073762717175888/1308342235439300628/product8.jpg?ex=673e40e8&is=673cef68&hm=a1d840f4f83290d7f6c358951af2d8a5df6332bf88f6bc9aea98a8e006063d95&=&format=webp&width=356&height=376"
-    },
-    {
-        "id": 9,
-        "name": "Cushia",
-        "price": 850,
-        "isNew": false,
-        "discountPercentage": 10,
-        "furnitureType": "Sofa cushion",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233128370176/product1.jpg?ex=673e40e8&is=673cef68&hm=97e818ef591cf82b3a6b946c637e1af35016541115f97befac46995caa7f19f2&"
-    },
-    {
-        "id": 10,
-        "name": "Vera",
-        "price": 200,
-        "isNew": true,
-        "discountPercentage": 8.5,
-        "furnitureType": "Wooden chair",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233514250270/product2.jpg?ex=673e40e8&is=673cef68&hm=9263b977598d483c795671a5db7877aedcf2c37d0780bb1d682463d4505d0392&"
-    },
-    {
-        "id": 11,
-        "name": "Tresta",
-        "price": 2100,
-        "isNew": false,
-        "discountPercentage": 12,
-        "furnitureType": "Dining table set",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233514250270/product2.jpg?ex=673e40e8&is=673cef68&hm=9263b977598d483c795671a5db7877aedcf2c37d0780bb1d682463d4505d0392&"
-    },
-    {
-        "id": 12,
-        "name": "Flair",
-        "price": 1350,
-        "isNew": true,
-        "discountPercentage": 5,
-        "furnitureType": "Minimalist floor lamp",
-        "productImage": "https://media.discordapp.net/attachments/1288073762717175888/1308342234151784468/product4.jpg?ex=673e40e8&is=673cef68&hm=a68495e96bf1b693c6268a69146f691ddc1fda28c52a94c22edb7b932013bf12&=&format=webp&width=356&height=376"
-    },
-    {
-        "id": 13,
-        "name": "Zenith",
-        "price": 1700,
-        "isNew": false,
-        "discountPercentage": 15,
-        "furnitureType": "Wooden shelf",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234403307560/product5.jpg?ex=673e40e8&is=673cef68&hm=dd6b8db0d6668370bacfff1a2598c05c21803bb26c0407563a9d61e7f71aaa47&"
-    },
-    {
-        "id": 14,
-        "name": "Echo",
-        "price": 600,
-        "isNew": true,
-        "discountPercentage": 12,
-        "furnitureType": "Wall mirror",
-        "productImage": "https://media.discordapp.net/attachments/1288073762717175888/1308342234726535209/product6.jpg?ex=673e40e8&is=673cef68&hm=5798c6a57426f6df29c47ef1659bfac882ca78d3a388ffbfd5d1f294720b5a48&=&format=webp&width=356&height=376"
-    },
-    {
-        "id": 15,
-        "name": "Astro",
-        "price": 550,
-        "isNew": true,
-        "discountPercentage": 10,
-        "furnitureType": "Armchair",
-        "productImage": "https://media.discordapp.net/attachments/1288073762717175888/1308342235082920037/product7.jpg?ex=673e40e8&is=673cef68&hm=ff32e1d09034221cb0555fa3d7e7b56c2eed2e6f1d95fd4b4c85135bf23d5008&=&format=webp&width=356&height=376"
-    },
-    {
-        "id": 16,
-        "name": "Palma",
-        "price": 1200,
-        "isNew": false,
-        "discountPercentage": 10,
-        "furnitureType": "Cushioned sofa",
-        "productImage": "https://media.discordapp.net/attachments/1288073762717175888/1308342235439300628/product8.jpg?ex=673e40e8&is=673cef68&hm=a1d840f4f83290d7f6c358951af2d8a5df6332bf88f6bc9aea98a8e006063d95&=&format=webp&width=356&height=376"
-    },
-    {
-        "id": 17,
-        "name": "Vina",
-        "price": 400,
-        "isNew": true,
-        "discountPercentage": 15,
-        "furnitureType": "Compact bookshelf",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342237426033675/product17.jpg?ex=673e40e8&is=673cef68&hm=97c5b81d6acb96f7e0e8e12a346f1f949fe439f5034bc169d2d8c5e7f5b8e9f8&"
-    },
-    {
-        "id": 18,
-        "name": "Brosa",
-        "price": 700,
-        "isNew": false,
-        "discountPercentage": 8,
-        "furnitureType": "Coffee table",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342237658085377/product18.jpg?ex=673e40e8&is=673cef68&hm=0ad81f80f18c4b64e9cb1f717b617cc26a23827c1c8a97c1c01d0b62f3e4b5fc&"
-    },
-    {
-        "id": 19,
-        "name": "Vallo",
-        "price": 350,
-        "isNew": false,
-        "discountPercentage": 5,
-        "furnitureType": "Side table",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342237889203201/product19.jpg?ex=673e40e8&is=673cef68&hm=423ecdef4b340fdd9b2e9e8986d4a2d8c76d9a1a9f2407b41d2738fe9e5b10a2&"
-    },
-    {
-        "id": 20,
-        "name": "Cielo",
-        "price": 900,
-        "isNew": true,
-        "discountPercentage": 7,
-        "furnitureType": "Reading chair",
-        "productImage": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342238120761344/product20.jpg?ex=673e40e8&is=673cef68&hm=8e9c5c36f9d9e0c8b345c5fe8754600f028bb2332e99b746c8c3a67822d4c5e5&"
-    }
+  {
+    "id": 1,
+    "name": "LuxeChair",
+    "price": 1200,
+    "isNew": true,
+    "discountPercentage": 16.67,
+    "furnitureType": "Stylish cafe chair",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233128370176/product1.jpg?ex=674386e8&is=67423568&hm=74d5f49b039848ad6ec81a6708e5435405624e02b6a72b4804d9831f181a5131&",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "LuxeChair is a contemporary cafe chair designed for both style and comfort. Its sleek curves and premium material make it a standout piece for dining spaces or casual settings."
+  },
+  {
+    "id": 2,
+    "name": "Vivo",
+    "price": 1500,
+    "isNew": false,
+    "discountPercentage": 10,
+    "furnitureType": "Stylish cafe chair",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233514250270/product2.jpg?ex=674386e8&is=67423568&hm=ef7abf8cc53f90ece289b21f32f033c3b088010d0ac400373df2ca5d7144a07b&",
+    "images": [
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Vivo combines sleek modern aesthetics with lasting durability, making it a perfect chair for cafes or homes. Crafted to complement various decors, it adds elegance effortlessly."
+  },
+  {
+    "id": 3,
+    "name": "Sofica",
+    "price": 300,
+    "isNew": true,
+    "discountPercentage": 10,
+    "furnitureType": "Luxury big sofa",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233879150633/product3.jpg?ex=674386e8&is=67423568&hm=a3fd65746de509bb5f779a3615c4a70ffe033dd095b23434c43cf8f8ce925f6b&",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Sofica is a luxurious large sofa, perfect for elevating your living space. With its plush design and spacious seating, it ensures maximum comfort for your family and guests."
+  },
+  {
+    "id": 4,
+    "name": "Baristo",
+    "price": 2000,
+    "isNew": false,
+    "discountPercentage": null,
+    "furnitureType": "Outdoor bar table and stool",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234151784468/product4.jpg?ex=674386e8&is=67423568&hm=678e5bbfb7388cd4ff6b1702e7a21221ea131f4db9a7526be2179545443ebfd9&",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Baristo is a versatile outdoor bar set that includes a sleek table and stools. Its weather-resistant design and contemporary style make it ideal for open-air gatherings."
+  },
+  {
+    "id": 5,
+    "name": "Nox",
+    "price": 400,
+    "isNew": false,
+    "discountPercentage": 10,
+    "furnitureType": "Night lamp",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234403307560/product5.jpg?ex=674386e8&is=67423568&hm=975a641a1649179924009eb8906f68892f98f17dbe84ca58c4854176b01b41ba&",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Nox is a sleek night lamp that adds a cozy atmosphere to your space. Its minimalist design and warm light make it a perfect addition to any bedroom or living room."
+  },
+  {
+    "id": 6,
+    "name": "Muggi",
+    "price": 850,
+    "isNew": true,
+    "discountPercentage": 5.88,
+    "furnitureType": "Small mug",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234726535209/product6.jpg?ex=674386e8&is=67423568&hm=ba6bb40e2bd3ce75dc7cbed6303f574347571948643aaf82256d19a6d9cc4397&",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Muggi is a charming small mug with a simple design, perfect for enjoying your favorite beverages. Its premium ceramic material ensures both style and functionality."
+  },
+  {
+    "id": 7,
+    "name": "CosmoBed",
+    "price": 250,
+    "isNew": false,
+    "discountPercentage": null,
+    "furnitureType": "Cute bed set",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342235082920037/product7.jpg?ex=674386e8&is=67423568&hm=863b6f23e07d231bf0621b177e52c606821f8e0630ac85efb2c56fbcf75cae48&",
+   "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "CosmoBed is a cute and cozy bed set designed for comfort. Its soft, plush material makes it the ideal choice for a relaxing sleep experience."
+  },
+  {
+    "id": 8,
+    "name": "Florica",
+    "price": 500,
+    "isNew": true,
+    "discountPercentage": 10,
+    "furnitureType": "Minimalist flower pot",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342235439300628/product8.jpg?ex=674386e8&is=67423568&hm=3f11398a54a3806df471d53dfff1e8abeea84266a42c1079795fd72ab5f58e1b&",
+   "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Florica is a minimalist flower pot that complements modern decor. Its sleek, clean lines highlight the beauty of your plants while adding elegance to any room."
+  },
+  {
+    "id": 9,
+    "name": "Cushia",
+    "price": 850,
+    "isNew": false,
+    "discountPercentage": 10,
+    "furnitureType": "Sofa cushion",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661765778256-169bf5e561a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Cushia is a soft, comfortable sofa cushion that adds a touch of luxury to your living space. It is perfect for lounging and enhances the overall aesthetic of your sofa."
+  },
+  {
+    "id": 10,
+    "name": "Vera",
+    "price": 200,
+    "isNew": true,
+    "discountPercentage": 8.5,
+    "furnitureType": "Wooden chair",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661777863705-d3232b7c8088?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+   "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Vera is a beautifully crafted wooden chair, offering both simplicity and elegance. Its sturdy construction ensures lasting durability while enhancing your dining space."
+  },
+  {
+    "id": 11,
+    "name": "Tresta",
+    "price": 2100,
+    "isNew": false,
+    "discountPercentage": 12,
+    "furnitureType": "Dining table set",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661404159087-f2661d08cec8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+   "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Tresta is an elegant dining table set that seamlessly blends modern design with functionality. Perfect for family dinners or entertaining guests."
+  },
+  {
+    "id": 12,
+    "name": "Farron",
+    "price": 1100,
+    "isNew": true,
+    "discountPercentage": 10,
+    "furnitureType": "Office desk",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661330096698-4148e5c3b874?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Farron is a sleek and functional office desk designed to maximize productivity. Its minimalist structure fits well in both modern and traditional workspaces."
+  },
+  {
+    "id": 13,
+    "name": "Lumos",
+    "price": 850,
+    "isNew": false,
+    "discountPercentage": 8,
+    "furnitureType": "Desk lamp",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661407793352-7bbf9911151c?q=80&w=1996&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Lumos is an adjustable desk lamp with modern design. Perfect for office use, it provides ample light for work while adding a touch of elegance to your desk."
+  },
+  {
+    "id": 14,
+    "name": "Gracia",
+    "price": 1300,
+    "isNew": true,
+    "discountPercentage": 5.5,
+    "furnitureType": "Lounge chair",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661310071084-d9529e66c181?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+   "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Gracia is a plush lounge chair that promises maximum comfort for relaxation. Its elegant design and soft cushioning make it perfect for any living space."
+  },
+  {
+    "id": 15,
+    "name": "Serena",
+    "price": 1700,
+    "isNew": false,
+    "discountPercentage": null,
+    "furnitureType": "Sofa set",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661396945357-b040dcaf22c0?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Serena is an elegant sofa set designed for comfort and style. With spacious seating and premium fabric, it's the perfect choice for any modern living room."
+  },
+  {
+    "id": 16,
+    "name": "Bella",
+    "price": 1200,
+    "isNew": true,
+    "discountPercentage": 15,
+    "furnitureType": "Coffee table",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1681487439220-8a0d81d7138d?q=80&w=2066&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Bella is a stylish coffee table that enhances the look of any living room. Its unique design and solid construction make it both functional and fashionable."
+  },
+  {
+    "id": 17,
+    "name": "Astra",
+    "price": 950,
+    "isNew": false,
+    "discountPercentage": 7.5,
+    "furnitureType": "TV stand",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1664299181307-a1b431d1ff85?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Astra is a sleek TV stand that accommodates modern televisions. With ample storage space and a minimalistic design, it suits a variety of home decor styles."
+  },
+  {
+    "id": 18,
+    "name": "Oriona",
+    "price": 2000,
+    "isNew": true,
+    "discountPercentage": 9.5,
+    "furnitureType": "Patio lounge chair",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1664297550091-6d72fecff180?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Oriona is a comfortable patio lounge chair, designed for outdoor relaxation. Its weather-resistant frame and plush cushions offer a relaxing seating experience."
+  },
+  {
+    "id": 19,
+    "name": "Verto",
+    "price": 250,
+    "isNew": false,
+    "discountPercentage": 5,
+    "furnitureType": "Bar stool",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1661319060841-26c509bd1012?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+   "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Verto is a modern bar stool designed for both style and comfort. With adjustable height and sleek design, it suits various bar setups and kitchens."
+  },
+  {
+    "id": 20,
+    "name": "Cielo",
+    "price": 900,
+    "isNew": true,
+    "discountPercentage": 7,
+    "furnitureType": "Reading chair",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1683121063848-9adc5be57995?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      { "label": "L", "isSelected": true },
+      { "label": "XL", "isSelected": false },
+      { "label": "XS", "isSelected": false }
+    ],
+    "colors": [
+      { "color": "bg-violet-500" },
+      { "color": "bg-black" },
+      { "color": "bg-yellow-600" }
+    ],
+    "description": "Cielo is a thoughtfully designed reading chair that prioritizes comfort and elegance. Its ergonomic build and soft upholstery create the perfect space for relaxing with a good book."
+  }
 ]

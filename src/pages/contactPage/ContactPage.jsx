@@ -9,7 +9,9 @@ function ContactPage() {
       <Breadcrumb page={pageName} />
 
       <div className="text-center font-poppins px-3 lg:px-0 w-full md:w-[550px] lg:w-[644px] mt-[100px] container mx-auto">
-        <h2 className="pb-2 text-2xl font-semibold lg:text-4xl">Get In Touch With Us</h2>
+        <h2 className="pb-2 text-2xl font-semibold lg:text-4xl">
+          Get In Touch With Us
+        </h2>
         <p className="text-sm text-customGray-700">
           For More Information About Our Product & Services. Please Feel Free To
           Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not
@@ -105,13 +107,18 @@ function ContactPage() {
         </div>
       </div>
 
-
       <div className="container w-full px-3 mx-auto h-[500px] mb-20 lg:px-0">
-      <iframe className="w-full h-full rounded-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.444654965871!2d90.36162928053828!3d23.838339223459098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c16da106644d%3A0xf414c9bfac137ced!2sGoinnovior%20Limited-%20IT%20Service%20%7C%20IT%20Consulting%20Firm!5e0!3m2!1sen!2sbd!4v1732369494414!5m2!1sen!2sbd" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
-</div>
+        <iframe
+          className="w-full h-full rounded-xl"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.444654965871!2d90.36162928053828!3d23.838339223459098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c16da106644d%3A0xf414c9bfac137ced!2sGoinnovior%20Limited-%20IT%20Service%20%7C%20IT%20Consulting%20Firm!5e0!3m2!1sen!2sbd!4v1732369494414!5m2!1sen!2sbd"
+          width="600"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
 
-      <WhyChooseUs/>
-
+      <WhyChooseUs />
     </div>
   );
 }
