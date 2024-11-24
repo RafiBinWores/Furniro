@@ -1,6 +1,6 @@
 import { StarFilled } from "@ant-design/icons";
 import { Link, useLoaderData } from "react-router-dom";
-import SizeSelector from "../../components/productDetails/SIzeSelector";
+import SizeSelector from "../../components/productDetails/SizeSelector";
 import ColorSelector from "../../components/productDetails/ColorSelector";
 
 function ProductDetailsPage() {
