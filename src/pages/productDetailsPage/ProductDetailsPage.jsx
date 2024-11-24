@@ -26,11 +26,11 @@ function ProductDetailsPage() {
 
       {/* Product DEtails */}
       <div className="container px-3 mx-auto mt-12">
-        <div className="flex gap-36">
+        <div className="flex flex-col gap-10 lg:flex-row lg:gap-36">
           <div>
-            <div className="flex gap-8">
+            <div className="flex flex-col-reverse gap-8 lg:flex-row">
               {/* Side Image */}
-              <div className="space-y-8">
+              <div className="flex gap-4 lg:flex-col lg:gap-8">
                 {images.map((image, index) => (
                   <div
                     key={index}
@@ -45,7 +45,7 @@ function ProductDetailsPage() {
                 ))}
               </div>
 
-              <div className="w-[423px] h-[500px] bg-peach rounded-md">
+              <div className="w-full lg:w-[423px] h-[500px] bg-peach rounded-md">
                 {/* Thumbnail */}
                 <img
                   className="object-cover object-center w-full h-full rounded-md"
@@ -75,7 +75,7 @@ function ProductDetailsPage() {
               </span>
             </div>
 
-            <p className="mt-3.5 text-sm text-black max-w-[414px] text-[13px]">
+            <p className="mt-3.5 text-sm text-black lg:max-w-[414px] text-[13px]">
               Setting the bar as one of the loudest speakers in its class, the
               Kilburn is a compact, stout-hearted hero with a well-balanced
               audio which boasts a clear midrange and extended highs for a
@@ -89,25 +89,27 @@ function ProductDetailsPage() {
             <ColorSelector colors={colors} />
 
             {/* buttons selector */}
-            <div className="flex items-center gap-4 mt-8">
-              <div className="inline-flex px-4 py-4 text-base bg-white border border-solid gap-9 whitespace-nowrap rounded-xl border-neutral-400">
-                <button
-                  aria-label="Decrease quantity"
-                  className="focus:outline-none"
-                >
-                  -
-                </button>
-                <span className="text-xl">1</span>
-                <button
-                  aria-label="Increase quantity"
-                  className="focus:outline-none"
-                >
-                  +
+            <div className="flex flex-col gap-4 mt-8 md:items-center md:flex-row">
+              <div className="flex justify-between gap-4">
+                <div className="inline-flex px-4 py-4 text-base bg-white border border-solid gap-9 whitespace-nowrap rounded-xl border-neutral-400">
+                  <button
+                    aria-label="Decrease quantity"
+                    className="focus:outline-none"
+                  >
+                    -
+                  </button>
+                  <span className="text-xl">1</span>
+                  <button
+                    aria-label="Increase quantity"
+                    className="focus:outline-none"
+                  >
+                    +
+                  </button>
+                </div>
+                <button className="inline-flex px-8 py-4 text-base bg-white border border-solid gap-9 whitespace-nowrap rounded-xl border-neutral-400">
+                  <span className="text-xl">Add To Cart</span>
                 </button>
               </div>
-              <button className="inline-flex px-8 py-4 text-base bg-white border border-solid gap-9 whitespace-nowrap rounded-xl border-neutral-400">
-                <span className="text-xl">Add To Cart</span>
-              </button>
               <button className="inline-flex px-8 py-4 text-base bg-white border border-solid gap-9 whitespace-nowrap rounded-xl border-neutral-400">
                 <span className="text-xl">
                   <span className="pe-2">+</span> Compare
@@ -131,43 +133,42 @@ function ProductDetailsPage() {
 
       {/* Tabs */}
       <div className="flex items-center justify-center">
-      <div role="tablist" className="tabs">
-        <input
-          type="radio"
-          name="my_tabs_1"
-          role="tab"
-          className="tab"
-          aria-label="Description"
-          defaultChecked
-        />
-        <div role="tabpanel" className="p-10 tab-content">
-        Description
-        </div>
+        <div role="tablist" className="tabs">
+          <input
+            type="radio"
+            name="my_tabs_1"
+            role="tab"
+            className="tab"
+            aria-label="Description"
+            defaultChecked
+          />
+          <div role="tabpanel" className="p-10 tab-content">
+            Description
+          </div>
 
-        <input
-          type="radio"
-          name="my_tabs_1"
-          role="tab"
-          className="tab"
-          aria-label="Additional Information"
-        />
-        <div role="tabpanel" className="p-10 tab-content">
-        Additional Information
-        </div>
+          <input
+            type="radio"
+            name="my_tabs_1"
+            role="tab"
+            className="tab"
+            aria-label="Additional Information"
+          />
+          <div role="tabpanel" className="p-10 tab-content">
+            Additional Information
+          </div>
 
-        <input
-          type="radio"
-          name="my_tabs_1"
-          role="tab"
-          className="tab"
-          aria-label="Reviews"
-        />
-        <div role="tabpanel" className="p-10 tab-content">
-        Reviews
+          <input
+            type="radio"
+            name="my_tabs_1"
+            role="tab"
+            className="tab"
+            aria-label="Reviews"
+          />
+          <div role="tabpanel" className="p-10 tab-content">
+            Reviews
+          </div>
         </div>
       </div>
-      </div>
-      
     </div>
   );
 }
