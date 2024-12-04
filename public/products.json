@@ -6,7 +6,7 @@
     "isNew": true,
     "discountPercentage": 16.67,
     "furnitureType": "Stylish cafe chair",
-    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233128370176/product1.jpg?ex=674386e8&is=67423568&hm=74d5f49b039848ad6ec81a6708e5435405624e02b6a72b4804d9831f181a5131&",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233128370176/product1.jpg?ex=67515ea8&is=67500d28&hm=840765fae71296b20caf2cdcefc915ab419bd5b41255468a9442d23393fe4871&",
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -32,12 +32,12 @@
     "isNew": false,
     "discountPercentage": 10,
     "furnitureType": "Stylish cafe chair",
-    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233514250270/product2.jpg?ex=674386e8&is=67423568&hm=ef7abf8cc53f90ece289b21f32f033c3b088010d0ac400373df2ca5d7144a07b&",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233514250270/product2.jpg?ex=67515ea8&is=67500d28&hm=e2a815e2a990e82a48fe17853b3d606a513838b450f449ba922f60996bf29dc3&",
     "images": [
-      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1602406371995-4bb03243c51f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1601568494843-772eb04aca5d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "sizes": [
       { "label": "L", "isSelected": true },
@@ -58,7 +58,7 @@
     "isNew": true,
     "discountPercentage": 10,
     "furnitureType": "Luxury big sofa",
-    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233879150633/product3.jpg?ex=674386e8&is=67423568&hm=a3fd65746de509bb5f779a3615c4a70ffe033dd095b23434c43cf8f8ce925f6b&",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342233879150633/product3.jpg?ex=67515ea8&is=67500d28&hm=b33386a98af63317cf3c7f395fbc497a3fa9c3dba91719ecb58a46c65b4ddc5a&",
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -84,7 +84,7 @@
     "isNew": false,
     "discountPercentage": null,
     "furnitureType": "Outdoor bar table and stool",
-    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234151784468/product4.jpg?ex=674386e8&is=67423568&hm=678e5bbfb7388cd4ff6b1702e7a21221ea131f4db9a7526be2179545443ebfd9&",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234151784468/product4.jpg?ex=67515ea8&is=67500d28&hm=437ac8c88a4b252bf55bbfdece315a45a4a371add224482f8ea96d84bdb7af61&",
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -110,7 +110,7 @@
     "isNew": false,
     "discountPercentage": 10,
     "furnitureType": "Night lamp",
-    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234403307560/product5.jpg?ex=674386e8&is=67423568&hm=975a641a1649179924009eb8906f68892f98f17dbe84ca58c4854176b01b41ba&",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234403307560/product5.jpg?ex=67515ea8&is=67500d28&hm=89e28203041089890712942df8d6b2cd55babeffcbf5d41b8c9a88ea3732e083&",
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -136,7 +136,7 @@
     "isNew": true,
     "discountPercentage": 5.88,
     "furnitureType": "Small mug",
-    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234726535209/product6.jpg?ex=674386e8&is=67423568&hm=ba6bb40e2bd3ce75dc7cbed6303f574347571948643aaf82256d19a6d9cc4397&",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342234726535209/product6.jpg?ex=67515ea8&is=67500d28&hm=65bbd82690336252a1d6ac9af113acca079c9ce50287c4087c2a0d8d69af3f14&",
     "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -162,7 +162,7 @@
     "isNew": false,
     "discountPercentage": null,
     "furnitureType": "Cute bed set",
-    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342235082920037/product7.jpg?ex=674386e8&is=67423568&hm=863b6f23e07d231bf0621b177e52c606821f8e0630ac85efb2c56fbcf75cae48&",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342235082920037/product7.jpg?ex=67515ea8&is=67500d28&hm=0c9ee11b3851e5bf9f5c71e825ac5b5a8f50c7b82c6eb2c224819baa799a5a17&",
    "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -188,7 +188,7 @@
     "isNew": true,
     "discountPercentage": 10,
     "furnitureType": "Minimalist flower pot",
-    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342235439300628/product8.jpg?ex=674386e8&is=67423568&hm=3f11398a54a3806df471d53dfff1e8abeea84266a42c1079795fd72ab5f58e1b&",
+    "thumbnail": "https://cdn.discordapp.com/attachments/1288073762717175888/1308342235439300628/product8.jpg?ex=67515ea8&is=67500d28&hm=0763f4c3353a41b639a84f083396c6133e4afe9a1f2a882d43426774357c9dab&",
    "images": [
       "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1585264550248-1778be3b6368?q=80&w=1963&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
